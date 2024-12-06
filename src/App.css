@@ -1,0 +1,377 @@
+@font-face {
+  font-family: 'font1';
+  src: url("../src/assets/Fonts/fa-regular-400-9VThgXHM.woff2");
+}
+@font-face {
+  font-family: 'font2';
+  src: url("../src/assets/Fonts/fa-regular-400-C54-fRIQ.ttf");
+}
+@font-face {
+  font-family: 'font3';
+  src: url("../src/assets/Fonts/fa-brands-400-Ch568Ea9.woff2");
+}
+@font-face {
+  font-family: 'font4';
+  src: url("../src/assets/Fonts/fa-brands-400-DHHcbFjz.ttf");
+}
+@font-face {
+  font-family: 'font5';
+  src: url("../src/assets/Fonts/fa-solid-900-Cm9M9sZB.ttf");
+}
+@font-face {
+  font-family: 'font6';
+  src: url("../src/assets/Fonts/fa-solid-900-QWY35r5r.woff2");
+}
+@font-face {
+  font-family: 'font7';
+  src: url("../src/assets/Fonts/fa-v4compatibility-BRdYr4HJ.woff2");
+}
+@font-face {
+  font-family: 'font8';
+  src: url("../src/assets/Fonts/fa-v4compatibility-DLBX5pNp.ttf");
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .carousel {
+    height: 100vh;
+  }
+  
+  .carousel-inner {
+    height: 100%; 
+  }
+  
+  .carousel-item {
+    height: 100%; 
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+.person{
+    width: 152px;
+    height: 158px;
+    border-radius: 50%;
+}
+
+.back{
+  background-color: beige;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.fontSize{
+  font-size: 17px;
+}
+
+.name{
+  font-family: "font8";
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.job{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.job a{
+  margin-right: 3px;
+}
+
+.main-page{
+  font-family: "font8";
+  font-weight: 900;
+  font-size:65px;
+  margin-bottom: 20px;
+}
+
+.main-page-two{
+  font-family: "font7";
+}
+
+.main-button{
+  margin-bottom: 190px;
+}
+
+.main-paragraph{
+  font-family: "font6";
+  letter-spacing: 6px;
+  font-size: 9px;
+}
+
+.main-heading{
+  font-family: "font7";
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+
+.rest-page{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rest-page span{
+  font-size: 18px;
+}
+
+.c1:after{
+  content: "";
+  background-color: #2c98f0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.c2:after{
+  content: "";
+  background-color: #ec5453;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.c3:after{
+  content: "";
+  background-color: #f9bf3f;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.c4:after{
+  content: "";
+  background-color: #a84cb8;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.progress{
+  height: 7px !important;
+}
+
+.bar1{
+  background-color: #2c98f0;
+}
+.bar1::before{
+  content: "75%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 20px;
+  
+}
+
+.bar2{
+  background-color: #f9bf3f;
+}
+
+.bar3{
+  background-color: #2fa499;
+}
+
+.bar4{
+  background-color: #ec5453;
+}
+
+.bar5{
+  background-color: #a84cb8;
+}
+
+.bar6{
+  background-color: #4054b2;
+}
+
+.pen1{
+  position: relative;
+  display: inline-block;
+}
+.pen2{
+  position: relative;
+  display: inline-block;
+}
+.pen3{
+  position: relative;
+  display: inline-block;
+}
+
+.pen1::before{
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right:20px solid rgb(245, 245, 245) ;
+}
+
+.pen2::before{
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right:20px solid rgb(245, 245, 245) ;
+}
+
+.pen3::before{
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right:20px solid rgb(245, 245, 245) ;
+}
+
+.pen1::after{
+  content: "\f303";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  bottom: 97px;
+  left: -68px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #2c98f0;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.pen2::after{
+  content: "\f303";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  bottom: 97px;
+  left: -68px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #d9534f;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.pen3::after{
+  content: "\f303";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  bottom: 97px;
+  left: -68px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #f0ad4e;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.click{
+  cursor: pointer;
+}
+
+
+ul li.activated{
+  color:#2c98f0;
+}
+
+.work-card{
+  background-color: transparent;
+  height: 400px;
+  perspective: 1000px;
+  padding: 0;
+}
+
+.inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.workImg{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.front , .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.back{
+  background-color: #2c98f0;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.work-card:hover .inner {
+  transform: rotateY(180deg);
+}
+
+
+.icon{
+  position: absolute;
+  left: 30px;
+  bottom: 80px;
+}
+
+.icon-span{
+  padding: 2px 5px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 8px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.icon-span i {
+  color: black;
+}
+
+.link{
+  color: white;
+  position: absolute;
+  top:50px;
+  left: 30px;
+}
+
+.paragraph{
+  color: white;
+  position: absolute;
+  top:90px;
+  left: 30px;
+}
